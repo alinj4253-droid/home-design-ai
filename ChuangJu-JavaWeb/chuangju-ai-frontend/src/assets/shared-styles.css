@@ -1,0 +1,44 @@
+/* 文件: src/assets/shared-styles.css */
+
+/* 图片卡片统一样式 */
+.image-card {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--el-box-shadow-lighter);
+}
+
+.image-card .image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  border-radius: 4px 4px 0 0; /* 让图片顶部也有圆角 */
+  background-color: #f0f2f5; /* 图片加载前的占位背景色 */
+}
+
+.image-card .card-info {
+  padding: 14px;
+}
+
+.image-card .card-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #303133;
+}
+
+.image-card .card-bottom {
+  margin-top: 13px;
+  line-height: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-card .card-subtitle {
+  font-size: 13px;
+  color: #999;
+}
