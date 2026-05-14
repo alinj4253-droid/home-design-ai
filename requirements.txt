@@ -1,0 +1,30 @@
+numpy==1.26.4
+opencv-python
+Pillow
+timm
+ultralytics
+diffusers==0.25.1
+controlnet_aux
+sentence-transformers==2.2.2
+accelerate==0.25.0
+transformers==4.36.2
+huggingface-hub==0.20.3
+
+
+# --- Web 后端 (API) ---
+fastapi
+uvicorn[standard]
+python-multipart
+safetensors
+
+# --- Web 前端 (UI) ---
+streamlit
+requests
+streamlit-card
+streamlit-pannellum
+streamlit-autorefresh
+streamlit-modal
+
+# --- 其他工具库 ---
+tqdm
+packaging
